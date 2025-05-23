@@ -217,7 +217,7 @@ padding: 0 30px;
   border: 1px solid rgb(153, 156, 180);
   color: #fff;
   border-radius: 3px;
-   transition: transform 0.3s ease;
+   /* transition: transform 0.3s ease; */
    margin-bottom: 50px;
 }
 .btn{
@@ -342,12 +342,6 @@ footer form > button{ border: none; position: relative; left: -50px;background-c
   background-repeat: no-repeat;
   padding: 60px 0 60px;
   
-.sec-7 input:hover {
-  transform: scale(1);
-}
-.btn:hover {
-  transform: scale(1);
-}
   
 }
   .sec-4 {
