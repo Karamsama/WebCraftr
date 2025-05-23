@@ -58,7 +58,6 @@ h1{font-size: 4rem ; font-weight: 100;}
 header button{width: 190px; height: 50px; background-color: rgb(255, 109, 109); border: hidden; color: #fff; font:200 16px var(--ff); letter-spacing: 3px; margin: 40px 0 20px;  border-radius: 3px;  transition: transform 0.3s ease;}
 header button:hover{
    transform: scale(1.2);
-   
 }
 header p{ font-size: 14px; color: rgb(122,122,122);}
 header .content{padding: 228px 0;}
@@ -236,7 +235,7 @@ input::placeholder{
   color: #fff;
 }
 
-input:hover {
+.sec-7 input:hover {
   transform: scale(1.2);
 }
 .btn:hover {
@@ -249,7 +248,7 @@ input:hover {
 footer{
   background-image: url(images/footer-background.webp);
   background-size: cover;
-  background-repeat: none;
+  background-repeat: no-repeat;
   padding: 70px 0 90px;
   line-height: 30px;
 }
@@ -259,10 +258,12 @@ footer h2{
   font-weight: 500;
 }
 footer input{
-  padding: 10px 30px;
-  max-width: 250px;
+  padding: 10px 2px;
+  max-width: 240px;
   border: 1px solid var(--grey);
-  width: 250px;
+  width: 2400px;
+  height: 38px;
+  font-size: 12px;
 }
 footer input::placeholder{color: var(--grey);}
 
@@ -271,8 +272,13 @@ footer input::placeholder{color: var(--grey);}
   padding: 10px 0;
   justify-content: space-around; 
   align-items: center; 
-  max-width: 250px;
+  max-width: 200px;
 }
+.posi{
+  position: absolute;
+}
+footer form > button{ border: none; position: relative; left: -50px;background-color: var(--red) ; width: 50px; height: 38px; border: 1px solid var(--grey); border-left: none;}
+
 
 @media screen and (max-width:1208px){
   .col-d-1{ flex-basis: 8.33%; max-width: 8.33%;}
@@ -303,6 +309,14 @@ footer input::placeholder{color: var(--grey);}
     .col-m-11{flex-basis: 91.66%; max-width: 91.66%; }
     .col-m-12{ flex-basis: 100%; max-width: 100%;}
     .sec2-content h2{font-size: 4rem; font-weight: 600;}
+    .sec3-content h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color:royalblue;
+}
+.sec3-content span {
+  font-size: 20px
+}
   } 
   
   
@@ -328,6 +342,13 @@ footer input::placeholder{color: var(--grey);}
   background-repeat: no-repeat;
   padding: 60px 0 60px;
   
+.sec-7 input:hover {
+  transform: scale(1);
+}
+.btn:hover {
+  transform: scale(1);
+}
+  
 }
   .sec-4 {
     padding: 50px 0 10px;
@@ -338,10 +359,7 @@ footer input::placeholder{color: var(--grey);}
     font-size: 2.2rem;
   }
 
-  .sec-4-text {
-    padding-top: 40px 30px 0 ;
 
-  }
   .sec-4 p {
     font-size: 1.3rem ;
    
