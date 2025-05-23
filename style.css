@@ -4,7 +4,7 @@ ul{ list-style: none; padding: 0;}
 img{ vertical-align: bottom;}
 button{ cursor: pointer; padding: 0; }
 label{ display:block;}
-
+input , textarea, select{font-size: 16px;}
 .exo{
   font-family: "Exo", sans-serif;
   font-optical-sizing: auto;
@@ -217,8 +217,8 @@ padding: 0 30px;
   border: 1px solid rgb(153, 156, 180);
   color: #fff;
   border-radius: 3px;
-   /* transition: transform 0.3s ease; */
-   margin-bottom: 50px;
+  transition: transform 0.3s ease;
+  margin-bottom: 50px;
 }
 .btn{
   background-color: var(--red);
