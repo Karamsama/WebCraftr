@@ -234,10 +234,10 @@ padding: 0 30px;
 input::placeholder{
   color: #fff;
 }
-
+/* 
 .sec-7 input:hover {
   transform: scale(1.2);
-}
+} */
 .btn:hover {
   transform: scale(1.2);
 }

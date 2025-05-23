@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100;400;700&display=swap" rel="stylesheet"/>
   <script src="https://kit.fontawesome.com/0d8b3ba34e.js" crossorigin="anonymous"></script>
+  
 </head>
 
 <body>
@@ -97,7 +98,7 @@
       <div class="row">
         <div class="col-6 col-m-6">
         </div>
-        <div class="col-6 col-m-6 col-t-12  sec-4-text">
+        <div class="col-6 col-m-6 col-t-12 ">
           <span>NEW DESIGN</span>
           <h3 class="profile">Responsive design, just <br> need your tap <span>....</span></h3>
           <p>
@@ -174,7 +175,7 @@
               cupiditate sunt! Fugit culpa ipsum, neque voluptatum repellat maiores alias exercitationem laudantium, qui
               doloremque minus, perspiciatis magni.</p>
               <div>
-                <img src="images/tab.webp" alt="tab" loading="lazy" class="img-resp ">
+                <img src="images/tab.webp" alt="tab" loading="lazy" class="img-resp " loading="lazy">
               </div>
           </div>
         </div>
@@ -189,9 +190,9 @@
         <h2 class="profile">Over 1000 designers are using ...</h2>
         <form action="post">
           <div class="row">
-            <div class="col-3 col-t-12"> <input type="email" name="email" id="email" placeholder="YOUR EMAIL"></div>
-            <div class="col-3 col-t-12"><input type="text" name="fname" id="fname" placeholder="FULL NAME"></div>
-            <div class="col-3 col-t-12"><input type="password" name="password" id="password" placeholder="PASSWORD"></div>
+            <div class="col-3 col-t-12"> <input type="email" name="email" id="email" placeholder="YOUR EMAIL" required></div>
+            <div class="col-3 col-t-12"><input type="text" name="fname" id="fname" placeholder="FULL NAME" required></div>
+            <div class="col-3 col-t-12"><input type="password" name="password" id="password" placeholder="PASSWORD" required></div>
             <div class="col-3 col-t-12"> <button class="btn"> TRY NOW</button></div>
           </div>
           <p>By signing up you confirm our <a href="#"><u> terms & services.</u></a></p>
@@ -205,7 +206,8 @@
     <div class="container">
       <div class="row">
         <div class="col-3 col-t-12 col-m-6">
-          <h3><img src="images/footer-logo.webp" alt="StartEx" class="img-resp" width="80px"></h3>
+          <h3>
+          <img src="images/footer-logo.webp" alt="StartEx" class="img-resp" loading="lazy"></h3>
           <ul>
             <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
             <li> USA & CAN: 1-888-123-4567</li>
@@ -228,11 +230,13 @@
           <li><a href="">Privacy Policy</a></li></ul>
         </div>
         <div class="col-3 col-t-12 col-m-6">
-        <ul><li>
+        <ul ><li>
           <h3>Get New Letter</h3>
         </li>
-        <li><form action="post">
-          <input type="email" name="ftemail" id="ftemail" placeholder="EMAIL" class="">
+        <li class="posi">
+          <form action="post" class="flex align-center">
+            <input type="email" name="ftemail" id="ftemail" placeholder="EMAIL" required/>
+          <button type="submit" class="fa-solid fa-paper-plane" style=" color: var(--grey);;"></button>
         </form>
           <div class="social-media">
            <a href=""> <img src="images/facebook.webp" alt="" class="img-resp"></a>
