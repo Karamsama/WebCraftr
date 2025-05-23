@@ -233,11 +233,10 @@ padding: 0 30px;
  transition: transform 0.3s ease;}
 input::placeholder{
   color: #fff;
-}
-/* 
+} 
 .sec-7 input:hover {
   transform: scale(1.2);
-} */
+} 
 .btn:hover {
   transform: scale(1.2);
 }
